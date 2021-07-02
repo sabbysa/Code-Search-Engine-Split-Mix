@@ -1,0 +1,23 @@
+ .container{
+     display: flex;
+     justify-content: space-between;
+ }
+ .container button{
+     background-color: rgb(162, 162, 238);
+      color:white;
+      border:none;
+      width: 10%;
+ }
+
+ .container input{
+   
+    margin-left: 2px;
+    margin-right: 2px;
+border:none;
+border-bottom: 2px solid black;
+width: 90%;
+ }
+  input:focus{
+    border:none;
+    border-width:0px;
+ }
